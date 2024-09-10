@@ -1,0 +1,102 @@
+{
+    "Apps": {
+      "Categories": [
+        {
+          "Web-Browsers": {
+            "Name": "Web Browsers",
+            "Apps": [
+              {
+                "Brave": {
+                  "Name": "Brave",
+                  "Cmd": "sudo apt-get install apt-transport-https curl gnupg lsb-release -y && curl -fsSL https://brave.com/cn/brave-browser.asc | sudo apt-key add - && echo \"deb [arch=amd64] https://brave.com/cn/ stable main\" | sudo tee /etc/apt/sources.list.d/brave-browser.list && sudo apt update && sudo apt install brave-browser",
+                  "Description": "A privacy-focused web browser.",
+                  "Icon": "resources/brave.png"
+                },
+                "Chrome": {
+                  "Name": "Chrome",
+                  "Cmd": "sudo apt install google-chrome-stable",
+                  "Description": "A popular web browser.",
+                  "Icon": "resources/chrome.png"
+                },
+                "Opera": {
+                  "Name": "Opera",
+                  "Cmd": "sudo apt install opera-stable",
+                  "Description": "A web browser with built-in ad blocking and VPN features.",
+                  "Icon": "resources/opera.png"
+                },
+                "Tor": {
+                  "Name": "Tor Browser",
+                  "Cmd": "sudo apt install torbrowser-launcher",
+                  "Description": "A privacy-focused web browser that uses the Tor network.",
+                  "Icon": "resources/tor-browser.png"
+                }
+              }
+            ]
+          },
+          "Development": {
+            "Name": "Development Tools",
+            "Apps": [
+              {
+                "VSCode": {
+                  "Name": "Visual Studio Code",
+                  "Cmd": "sudo apt install code",
+                  "Description": "A source-code editor developed by Microsoft.",
+                  "Icon": "resources/vscode.png"
+                },
+                "SublimeText": {
+                  "Name": "Sublime Text",
+                  "Cmd": "sudo apt install sublime-text",
+                  "Description": "A sophisticated text editor for code, markup, and prose.",
+                  "Icon": "resources/sublime-text.svg"
+                },
+                "Atom": {
+                  "Name": "Atom",
+                  "Cmd": "sudo snap install atom --classic",
+                  "Description": "A hackable text editor for the 21st century.",
+                  "Icon": "resources/atom.png"
+                },
+                "PyCharm": {
+                  "Name": "PyCharm",
+                  "Cmd": "sudo snap install pycharm-community --classic",
+                  "Description": "Python IDE for professional developers by JetBrains.",
+                  "Icon": "resources/pycharm.png"
+                }
+              }
+            ]
+          },
+          "Utilities": {
+            "Name": "Utilities",
+            "Apps": [
+              {
+                "GIMP": {
+                  "Name": "GIMP",
+                  "Cmd": "sudo apt install gimp",
+                  "Description": "A free and open-source image editor.",
+                  "Icon": "resources/gimp.png"
+                },
+                "VLC": {
+                  "Name": "VLC Media Player",
+                  "Cmd": "sudo apt install vlc",
+                  "Description": "A free and open-source cross-platform multimedia player.",
+                  "Icon": "resources/vlc.png"
+                },
+                "Thunderbird": {
+                  "Name": "Thunderbird",
+                  "Cmd": "sudo apt install thunderbird",
+                  "Description": "A free and open-source email client.",
+                  "Icon": "resources/thunderbird.png"
+                },
+                "BleachBit": {
+                  "Name": "BleachBit",
+                  "Cmd": "sudo apt install bleachbit",
+                  "Description": "A free and open-source disk space cleaner and privacy manager.",
+                  "Icon": "resources/bleachbit.png"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+  
