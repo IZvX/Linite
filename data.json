@@ -51,7 +51,7 @@
               },
               "Atom": {
                 "Name": "Atom",
-                "Cmd": "sudo mv /etc/apt/preferences.d/nosnap.pref ~/Documents/nosnap.backup && sudo apt update && sudo apt install snapd -y && sudo snap install atom --classic",
+                "Cmd": "sudo apt install snapd -y && sudo apt update && sudo snap install atom --classic -y",
                 "Description": "A hackable text editor for the 21st century.",
                 "Icon": "resources/atom.png"
               },
